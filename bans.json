@@ -1333,38 +1333,14 @@
                   {
                     "areaId": "DE-BY",
                     "type": "region"
-                  }
-                ],
-                "warning": true,
-                "warningText": "Zakaz dotyczy tylko Bawarii. Obowiązuje na wszystkich drogach dla pojazdów powyżej 7.5t."
-              },
-              {
-                "timeFrom": "00:00",
-                "timeTo": "22:00",
-                "areas": [
+                  },
                   {
                     "areaId": "DE-BW",
                     "type": "region"
                   }
                 ],
-                "warning": false
-              }
-            ]
-          },
-          {
-            "code": "AT",
-            "name": "Austria",
-            "restrictions": [
-              {
-                "timeFrom": "15:00",
-                "timeTo": "24:00",
-                "areas": [
-                  {
-                    "areaId": "AT",
-                    "type": "country"
-                  }
-                ],
-                "warning": false
+                "warning": true,
+                "warningText": "Zakaz obowiązuje w Bawarii i Badenii-Wirtembergii. Dotyczy pojazdów powyżej 7.5t."
               }
             ]
           }
