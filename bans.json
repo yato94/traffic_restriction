@@ -1,0 +1,243 @@
+{
+  "dates": [
+    {
+      "date": "2025-03-15",
+      "dayOfWeek": "Sobota",
+      "countries": [
+        {
+          "code": "DE",
+          "name": "Niemcy",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE-BY",
+                  "type": "region"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Włochy",
+          "restrictions": [
+            {
+              "timeFrom": "08:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "IT-A1",
+                  "type": "highway"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-16",
+      "dayOfWeek": "Niedziela",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            },
+            {
+              "timeFrom": "22:00",
+              "timeTo": "24:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": true
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "Niemcy",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CZ",
+          "name": "Czechy",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "dayOfWeek": "Poniedziałek",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "05:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": true
+            },
+            {
+              "timeFrom": "22:00",
+              "timeTo": "24:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-22",
+      "dayOfWeek": "Sobota",
+      "countries": [
+        {
+          "code": "DE",
+          "name": "Niemcy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "20:00",
+              "areas": [
+                {
+                  "areaId": "DE-BW",
+                  "type": "region"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Włochy",
+          "restrictions": [
+            {
+              "timeFrom": "08:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "IT-A1",
+                  "type": "highway"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-23",
+      "dayOfWeek": "Niedziela",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "Niemcy",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CZ",
+          "name": "Czechy",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
