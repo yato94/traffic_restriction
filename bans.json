@@ -13,8 +13,8 @@
               "timeTo": "22:00",
               "areas": [
                 {
-                  "areaId": "DE-BY",
-                  "type": "region"
+                  "areaId": "DE",
+                  "type": "country"
                 }
               ],
               "warning": false
