@@ -1403,6 +1403,33 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2025-07-28",
+      "dayOfWeek": "Monday",
+      "countries": [
+        {
+          "code": "DE",
+          "name": "Niemcy",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE-BY",
+                  "type": "region"
+                },
+                {
+                  "areaId": "DE-BW",
+                  "type": "region"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
     }
   ]
 }
