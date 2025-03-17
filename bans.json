@@ -29,7 +29,7 @@
                 }
               ],
               "warning": true,
-              "warningText": "A1"
+              "warningText": "tekst warningu"
             }
           ]
         },
@@ -1353,6 +1353,52 @@
               ],
               "warning": true,
               "warningText": "Zakaz obowiązuje w Bawarii i Badenii-Wirtembergii. Dotyczy pojazdów powyżej 7.5t."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-27",
+      "dayOfWeek": "Sunday",
+      "countries": [
+        {
+          "code": "DE",
+          "name": "Niemcy",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            },
+            {
+              "timeFrom": "05:00",
+              "timeTo": "23:00",
+              "areas": [
+                {
+                  "areaId": "DE-BY",
+                  "type": "region"
+                }
+              ],
+              "warning": false
+            },
+            {
+              "timeFrom": "13:00",
+              "timeTo": "17:00",
+              "areas": [
+                {
+                  "areaId": "DE-BW",
+                  "type": "region"
+                }
+              ],
+              "warning": true,
+              "warningText": "warning do Badeni"
             }
           ]
         }
