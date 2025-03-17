@@ -18,6 +18,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE-BW",
+                  "type": "region"
+                }
+              ],
+              "warning": true,
+              "warningText": "A1"
             }
           ]
         },
@@ -1341,75 +1353,6 @@
               ],
               "warning": true,
               "warningText": "Zakaz obowiązuje w Bawarii i Badenii-Wirtembergii. Dotyczy pojazdów powyżej 7.5t."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-27",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "CZ",
-          "name": "Czech Republic",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "CZ",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "uwaga czechy"
-            }
-          ]
-        },
-        {
-          "code": "DE",
-          "name": "Germany",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "16:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
             }
           ]
         }
