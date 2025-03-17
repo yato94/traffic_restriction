@@ -1382,6 +1382,17 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
             }
           ]
         },
