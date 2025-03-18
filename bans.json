@@ -1,48 +1,110 @@
 {
   "dates": [
     {
-      "date": "2025-03-15",
-      "dayOfWeek": "Saturday",
+      "date": "2025-03-19",
+      "dayOfWeek": "Wednesday",
       "countries": [
         {
-          "code": "DE",
-          "name": "Niemcy",
+          "code": "LI",
+          "name": "Liechtenstein",
           "restrictions": [
             {
               "timeFrom": "00:00",
-              "timeTo": "22:00",
+              "timeTo": "23:59",
               "areas": [
                 {
-                  "areaId": "DE-BY",
-                  "type": "region"
+                  "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-20",
+      "dayOfWeek": "Thursday",
+      "countries": [
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "05:00",
+              "areas": [
+                {
+                  "areaId": "LI",
+                  "type": "country"
                 }
               ],
               "warning": false
             },
             {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
+              "timeFrom": "22:00",
+              "timeTo": "23:00",
               "areas": [
                 {
-                  "areaId": "DE-BW",
-                  "type": "region"
+                  "areaId": "LI",
+                  "type": "country"
                 }
               ],
-              "warning": true,
-              "warningText": "tekst warningu"
+              "warning": false
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "date": "2025-03-21",
+      "dayOfWeek": "Friday",
+      "countries": [
         {
-          "code": "IT",
-          "name": "Włochy",
+          "code": "AT",
+          "name": "Austria",
           "restrictions": [
             {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
+              "timeFrom": "13:00",
+              "timeTo": "19:00",
               "areas": [
                 {
-                  "areaId": "IT-A1",
+                  "areaId": "AT-A10",
+                  "type": "highway"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-22",
+      "dayOfWeek": "Saturday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "15:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A10",
                   "type": "highway"
                 }
               ],
@@ -52,98 +114,11 @@
         },
         {
           "code": "FR",
-          "name": "Francja",
+          "name": "France",
           "restrictions": [
             {
               "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Zakaz dotyczy również dróg dojazdowych do tuneli i terminali. Wymagane zezwolenie specjalne."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-16",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Uwaga! W tym czasie obowiązują szczególne ograniczenia. Ruch dozwolony tylko dla pojazdów posiadających specjalne zezwolenia."
-            }
-          ]
-        },
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CZ",
-          "name": "Czechy",
-          "restrictions": [
-            {
-              "timeFrom": "13:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "CZ",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "Francja",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
+              "timeTo": "23:59",
               "areas": [
                 {
                   "areaId": "FR",
@@ -156,79 +131,41 @@
         },
         {
           "code": "LU",
-          "name": "Luksemburg",
+          "name": "Luxembourg",
           "restrictions": [
             {
-              "timeFrom": "00:00",
-              "timeTo": "21:45",
+              "timeFrom": "21:30",
+              "timeTo": "23:59",
               "areas": [
                 {
                   "areaId": "LU",
                   "type": "country"
                 }
               ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SK",
-          "name": "Słowacja",
-          "restrictions": [
+              "warning": true,
+              "warningText": "direction France"
+            },
             {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
+              "timeFrom": "23:30",
+              "timeTo": "23:59",
               "areas": [
                 {
-                  "areaId": "SK",
+                  "areaId": "AT",
                   "type": "country"
                 }
               ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SI",
-          "name": "Słowenia",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Szwajcaria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": false
+              "warning": true,
+              "warningText": "direction Germany"
             }
           ]
         },
         {
           "code": "HU",
-          "name": "Węgry",
+          "name": "Hungary",
           "restrictions": [
             {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
               "areas": [
                 {
                   "areaId": "HU",
@@ -236,404 +173,6 @@
                 }
               ],
               "warning": false
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Włochy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-17",
-      "dayOfWeek": "Monday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w godzinach nocnych. Możliwe kontrole policji. Zalecane posiadanie dokumentacji ładunku."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w godzinach nocnych. Możliwe kontrole policji. Zalecane posiadanie dokumentacji ładunku."
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Szwajcaria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Dotyczy pojazdów powyżej 3.5t. W przypadku przewozu towarów niebezpiecznych konieczne dodatkowe zezwolenia."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Dotyczy pojazdów powyżej 3.5t. W przypadku przewozu towarów niebezpiecznych konieczne dodatkowe zezwolenia."
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązują te same przepisy co na obszarze Szwajcarii. Kary za naruszenie przepisów wynoszą 200-500 CHF."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązują te same przepisy co na obszarze Szwajcarii. Kary za naruszenie przepisów wynoszą 200-500 CHF."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-18",
-      "dayOfWeek": "Tuesday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w godzinach nocnych. Możliwe kontrole policji. Zalecane posiadanie dokumentacji ładunku."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w godzinach nocnych. Możliwe kontrole policji. Zalecane posiadanie dokumentacji ładunku."
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Szwajcaria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Dotyczy pojazdów powyżej 3.5t. W przypadku przewozu towarów niebezpiecznych konieczne dodatkowe zezwolenia."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Dotyczy pojazdów powyżej 3.5t. W przypadku przewozu towarów niebezpiecznych konieczne dodatkowe zezwolenia."
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązują te same przepisy co na obszarze Szwajcarii. Kary za naruszenie przepisów wynoszą 200-500 CHF."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązują te same przepisy co na obszarze Szwajcarii. Kary za naruszenie przepisów wynoszą 200-500 CHF."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-19",
-      "dayOfWeek": "Wednesday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w godzinach nocnych. Możliwe kontrole policji. Zalecane posiadanie dokumentacji ładunku."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w godzinach nocnych. Możliwe kontrole policji. Zalecane posiadanie dokumentacji ładunku."
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Szwajcaria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Dotyczy pojazdów powyżej 3.5t. W przypadku przewozu towarów niebezpiecznych konieczne dodatkowe zezwolenia."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Dotyczy pojazdów powyżej 3.5t. W przypadku przewozu towarów niebezpiecznych konieczne dodatkowe zezwolenia."
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązują te same przepisy co na obszarze Szwajcarii. Kary za naruszenie przepisów wynoszą 200-500 CHF."
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązują te same przepisy co na obszarze Szwajcarii. Kary za naruszenie przepisów wynoszą 200-500 CHF."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-22",
-      "dayOfWeek": "Saturday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "07:00",
-              "timeTo": "20:00",
-              "areas": [
-                {
-                  "areaId": "DE-BW",
-                  "type": "region"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Włochy",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT-A1",
-                  "type": "highway"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "Francja",
-          "restrictions": [
-            {
-              "timeFrom": "07:00",
-              "timeTo": "19:00",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Zakaz dla pojazdów o DMC powyżej 7.5t. W przypadku przewozu żywności, zwierząt i materiałów sezonowych możliwe wyjątki."
-            }
-          ]
-        },
-        {
-          "code": "ES",
-          "name": "Hiszpania",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "20:00",
-              "areas": [
-                {
-                  "areaId": "ES-CAT",
-                  "type": "region"
-                }
-              ],
-              "warning": true,
-              "warningText": "Obowiązuje w regionie Katalonii. Na drogach AP-7 i AP-2 możliwe dodatkowe ograniczenia w przypadku wzmożonego ruchu turystycznego."
             }
           ]
         }
@@ -661,25 +200,8 @@
           ]
         },
         {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
           "code": "CZ",
-          "name": "Czechy",
+          "name": "Czech Republic",
           "restrictions": [
             {
               "timeFrom": "13:00",
@@ -696,7 +218,7 @@
         },
         {
           "code": "FR",
-          "name": "Francja",
+          "name": "France",
           "restrictions": [
             {
               "timeFrom": "00:00",
@@ -704,327 +226,16 @@
               "areas": [
                 {
                   "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Zakaz dotyczy całego kraju z wyjątkiem regionu Île-de-France (Paryż). Możliwe wyjątki dla transportu na krótkie dystanse."
-            }
-          ]
-        },
-        {
-          "code": "HR",
-          "name": "Chorwacja",
-          "restrictions": [
-            {
-              "timeFrom": "12:00",
-              "timeTo": "23:00",
-              "areas": [
-                {
-                  "areaId": "HR",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "W okresie letnim (15.06-15.09) obowiązują dodatkowe ograniczenia. Zalecane sprawdzenie aktualnych przepisów przed podróżą."
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Włochy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
                   "type": "country"
                 }
               ],
               "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-04-18",
-      "dayOfWeek": "Friday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielki Piątek - zakaz obowiązuje na terenie całego kraju. Zakaz dotyczy pojazdów o DMC powyżej 7.5t."
-            }
-          ]
-        },
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielki Piątek - zakaz dotyczy wszystkich pojazdów ciężarowych o DMC powyżej 7.5t."
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Szwajcaria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielki Piątek - dzień wolny od ruchu ciężarówek. Wjazd dozwolony tylko w wyjątkowych przypadkach za specjalnym zezwoleniem."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-04-19",
-      "dayOfWeek": "Saturday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "Francja",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - zakaz dotyczy wszystkich dróg krajowych. Kary za nieprzestrzeganie wynoszą od 1500 do 3000 EUR."
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Włochy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "16:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - zakaz obowiązuje z wyjątkiem pojazdów przewożących produkty szybko psujące się."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-04-20",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - całkowity zakaz ruchu ciężarówek. Zakaz dotyczy pojazdów o DMC powyżej 7.5t na wszystkich drogach."
-            }
-          ]
-        },
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - całkowity zakaz ruchu ciężarówek, włącznie z transportem intermodalnym."
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "Francja",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - całkowity zakaz ruchu ciężarówek. Wyjątki tylko dla transportu żywności świeżej i zwierząt żywych."
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Włochy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - ograniczenia w ruchu pojazdów ciężarowych o DMC powyżej 7.5t na wszystkich drogach krajowych."
-            }
-          ]
-        },
-        {
-          "code": "ES",
-          "name": "Hiszpania",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "ES",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wielkanoc - zakaz szczególnie dotyczy wszystkich głównych dróg wjazdowych i wyjazdowych z dużych miast."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-04-21",
-      "dayOfWeek": "Monday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Poniedziałek Wielkanocny - kontynuacja zakazu świątecznego z niedzieli. Obowiązuje na terenie całego kraju."
-            }
-          ]
-        },
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Poniedziałek Wielkanocny - zakaz ruchu ciężarówek na terenie całego kraju."
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Szwajcaria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "24:00",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Poniedziałek Wielkanocny - dzień wolny od ruchu ciężarówek. Przewozy specjalne wymagają wcześniejszego zezwolenia."
             }
           ]
         },
         {
           "code": "LU",
-          "name": "Luksemburg",
+          "name": "Luxembourg",
           "restrictions": [
             {
               "timeFrom": "00:00",
@@ -1035,20 +246,13 @@
                   "type": "country"
                 }
               ],
-              "warning": true,
-              "warningText": "Poniedziałek Wielkanocny - dzień świąteczny. Zakaz obejmuje wszystkie pojazdy ciężarowe w ruchu transgranicznymi."
+              "warning": false
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-05-01",
-      "dayOfWeek": "Thursday",
-      "countries": [
+        },
         {
           "code": "DE",
-          "name": "Niemcy",
+          "name": "Germany",
           "restrictions": [
             {
               "timeFrom": "00:00",
@@ -1059,32 +263,81 @@
                   "type": "country"
                 }
               ],
-              "warning": true,
-              "warningText": "Święto Pracy - całkowity zakaz ruchu ciężarówek o DMC powyżej 7.5t. Obowiązuje na wszystkich drogach federalnych."
+              "warning": false
             }
           ]
         },
         {
-          "code": "FR",
-          "name": "Francja",
+          "code": "SK",
+          "name": "Slovakia",
           "restrictions": [
             {
               "timeFrom": "00:00",
               "timeTo": "22:00",
               "areas": [
                 {
-                  "areaId": "FR",
+                  "areaId": "SK",
                   "type": "country"
                 }
               ],
-              "warning": true,
-              "warningText": "Święto Pracy - dodatkowe kontrole na głównych drogach. Zakaz transportu materiałów niebezpiecznych w rejonach miast."
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "restrictions": [
+            {
+              "timeFrom": "08:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "CH",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": false
             }
           ]
         },
         {
           "code": "IT",
-          "name": "Włochy",
+          "name": "Italy",
           "restrictions": [
             {
               "timeFrom": "09:00",
@@ -1095,98 +348,43 @@
                   "type": "country"
                 }
               ],
-              "warning": true,
-              "warningText": "Święto Pracy - zakaz ruchu pojazdów ciężarowych na całym obszarze Włoch. Wyjątki tylko dla transportu żywności świeżej."
+              "warning": false
             }
           ]
         },
         {
-          "code": "ES",
-          "name": "Hiszpania",
+          "code": "LI",
+          "name": "Liechtenstein",
           "restrictions": [
             {
-              "timeFrom": "08:00",
-              "timeTo": "24:00",
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
               "areas": [
                 {
-                  "areaId": "ES",
+                  "areaId": "LI",
                   "type": "country"
                 }
               ],
-              "warning": true,
-              "warningText": "Święto Pracy - ograniczenia w ruchu, szczególnie w pobliżu dużych miast. Możliwe demonstracje blokujące drogi."
-            }
-          ]
-        },
-        {
-          "code": "PL",
-          "name": "Polska",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "PL",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Święto Pracy - zakaz ruchu pojazdów ciężarowych o DMC powyżej 12t na wszystkich drogach krajowych."
+              "warning": false
             }
           ]
         }
       ]
     },
     {
-      "date": "2025-05-03",
-      "dayOfWeek": "Saturday",
+      "date": "2025-03-28",
+      "dayOfWeek": "Friday",
       "countries": [
         {
-          "code": "PL",
-          "name": "Polska",
+          "code": "AT",
+          "name": "Austria",
           "restrictions": [
             {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
+              "timeFrom": "13:00",
+              "timeTo": "19:00",
               "areas": [
                 {
-                  "areaId": "PL",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Święto Konstytucji 3 Maja - zakaz ruchu pojazdów ciężarowych o DMC powyżej 12t na wszystkich drogach krajowych."
-            }
-          ]
-        },
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "07:00",
-              "timeTo": "20:00",
-              "areas": [
-                {
-                  "areaId": "DE-BW",
-                  "type": "region"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Włochy",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT-A1",
+                  "areaId": "AT-A10",
                   "type": "highway"
                 }
               ],
@@ -1197,19 +395,47 @@
       ]
     },
     {
-      "date": "2025-05-04",
-      "dayOfWeek": "Sunday",
+      "date": "2025-03-29",
+      "dayOfWeek": "Saturday",
       "countries": [
         {
-          "code": "PL",
-          "name": "Polska",
+          "code": "AT",
+          "name": "Austria",
           "restrictions": [
             {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
+              "timeFrom": "15:00",
+              "timeTo": "23:59",
               "areas": [
                 {
-                  "areaId": "PL",
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A10",
+                  "type": "highway"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "FR",
                   "type": "country"
                 }
               ],
@@ -1217,6 +443,59 @@
             }
           ]
         },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "21:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction France"
+            },
+            {
+              "timeFrom": "23:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction Germany"
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-03-30",
+      "dayOfWeek": "Sunday",
+      "countries": [
         {
           "code": "AT",
           "name": "Austria",
@@ -1235,8 +514,42 @@
           ]
         },
         {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
           "code": "DE",
-          "name": "Niemcy",
+          "name": "Germany",
           "restrictions": [
             {
               "timeFrom": "00:00",
@@ -1244,6 +557,40 @@
               "areas": [
                 {
                   "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SK",
+          "name": "Slovakia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SK",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "restrictions": [
+            {
+              "timeFrom": "08:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SI",
                   "type": "country"
                 }
               ],
@@ -1253,11 +600,11 @@
         },
         {
           "code": "CH",
-          "name": "Szwajcaria",
+          "name": "Switzerland",
           "restrictions": [
             {
               "timeFrom": "00:00",
-              "timeTo": "24:00",
+              "timeTo": "23:59",
               "areas": [
                 {
                   "areaId": "CH",
@@ -1267,162 +614,52 @@
               "warning": false
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-05-29",
-      "dayOfWeek": "Thursday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wniebowstąpienie - zakaz ruchu ciężarówek o DMC powyżej 7.5t. Obowiązuje na wszystkich drogach federalnych."
-            }
-          ]
         },
         {
-          "code": "AT",
-          "name": "Austria",
+          "code": "HU",
+          "name": "Hungary",
           "restrictions": [
             {
               "timeFrom": "00:00",
               "timeTo": "22:00",
               "areas": [
                 {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wniebowstąpienie - całkowity zakaz ruchu ciężarówek. Możliwe korki na głównych trasach tranzytowych."
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luksemburg",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "21:45",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Wniebowstąpienie - ograniczenia w ruchu ciężarówek przez cały dzień. Zwiększone kontrole na granicach."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-26",
-      "dayOfWeek": "Saturday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "07:00",
-              "timeTo": "20:00",
-              "areas": [
-                {
-                  "areaId": "DE-BY",
-                  "type": "region"
-                },
-                {
-                  "areaId": "DE-BW",
-                  "type": "region"
-                }
-              ],
-              "warning": true,
-              "warningText": "Zakaz obowiązuje w Bawarii i Badenii-Wirtembergii. Dotyczy pojazdów powyżej 7.5t."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-27",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "DE",
-          "name": "Niemcy",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
+                  "areaId": "HU",
                   "type": "country"
                 }
               ],
               "warning": false
-            },
-            {
-              "timeFrom": "05:00",
-              "timeTo": "23:00",
-              "areas": [
-                {
-                  "areaId": "DE-BY",
-                  "type": "region"
-                }
-              ],
-              "warning": false
-            },
-            {
-              "timeFrom": "13:00",
-              "timeTo": "17:00",
-              "areas": [
-                {
-                  "areaId": "DE-BW",
-                  "type": "region"
-                }
-              ],
-              "warning": true,
-              "warningText": "warning do Badeni"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-28",
-      "dayOfWeek": "Monday",
-      "countries": [
+        },
         {
-          "code": "DE",
-          "name": "Niemcy",
+          "code": "IT",
+          "name": "Italy",
           "restrictions": [
             {
-              "timeFrom": "00:00",
+              "timeFrom": "09:00",
               "timeTo": "22:00",
               "areas": [
                 {
-                  "areaId": "DE-BY",
-                  "type": "region"
-                },
+                  "areaId": "IT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
                 {
-                  "areaId": "DE-BW",
-                  "type": "region"
+                  "areaId": "LI",
+                  "type": "country"
                 }
               ],
               "warning": false
