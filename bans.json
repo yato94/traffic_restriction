@@ -1,86 +1,6 @@
 {
   "dates": [
     {
-      "date": "2025-03-19",
-      "dayOfWeek": "Wednesday",
-      "countries": [
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-20",
-      "dayOfWeek": "Thursday",
-      "countries": [
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "05:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            },
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:00",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-03-21",
-      "dayOfWeek": "Friday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "13:00",
-              "timeTo": "19:00",
-              "areas": [
-                {
-                  "areaId": "AT-A10",
-                  "type": "highway"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2025-03-22",
       "dayOfWeek": "Saturday",
       "countries": [
@@ -659,6 +579,286 @@
               "areas": [
                 {
                   "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-04-05",
+      "dayOfWeek": "Saturday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "15:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "21:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction France"
+            },
+            {
+              "timeFrom": "23:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction Germany"
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-04-06",
+      "dayOfWeek": "Sunday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "21:45",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "Germany",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "restrictions": [
+            {
+              "timeFrom": "08:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "CH",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "09:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "IT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SK",
+          "name": "Slovakia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SK",
                   "type": "country"
                 }
               ],
