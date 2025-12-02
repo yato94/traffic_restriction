@@ -314,6 +314,23 @@
               "warningText": "Immaculate Conception"
             }
           ]
+        },
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
         }
       ]
     },
