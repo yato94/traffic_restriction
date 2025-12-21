@@ -1,904 +1,6 @@
 {
   "dates": [
     {
-      "date": "2025-12-06",
-      "dayOfWeek": "Saturday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luxembourg",
-          "restrictions": [
-            {
-              "timeFrom": "23:30",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Direction Germany"
-            },
-            {
-              "timeFrom": "21:30",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Direction France"
-            }
-          ]
-        },
-        {
-          "code": "HU",
-          "name": "Hungary",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "HU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-12-07",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            },
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luxembourg",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "21:45",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "DE",
-          "name": "Germany",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SK",
-          "name": "Slovakia",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SK",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SI",
-          "name": "Slovenia",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Switzerland",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "HU",
-          "name": "Hungary",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "HU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Italy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CZ",
-          "name": "Czech Republic",
-          "restrictions": [
-            {
-              "timeFrom": "13:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "CZ",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-12-08",
-      "dayOfWeek": "Monday",
-      "countries": [
-        {
-          "code": "IT",
-          "name": "Italy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Immaculate Conception"
-            }
-          ]
-        },
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-12-13",
-      "dayOfWeek": "Saturday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luxembourg",
-          "restrictions": [
-            {
-              "timeFrom": "23:30",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Direction Germany"
-            },
-            {
-              "timeFrom": "21:30",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Direction France"
-            }
-          ]
-        },
-        {
-          "code": "HU",
-          "name": "Hungary",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "HU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-12-14",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CZ",
-          "name": "Czech Republic",
-          "restrictions": [
-            {
-              "timeFrom": "13:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "CZ",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luxembourg",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "21:45",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "DE",
-          "name": "Germany",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SK",
-          "name": "Slovakia",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SK",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SI",
-          "name": "Slovenia",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Switzerland",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "HU",
-          "name": "Hungary",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "HU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Italy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-12-20",
-      "dayOfWeek": "Saturday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luxembourg",
-          "restrictions": [
-            {
-              "timeFrom": "22:30",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Direction Germany"
-            },
-            {
-              "timeFrom": "21:30",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "Direction France"
-            }
-          ]
-        },
-        {
-          "code": "HU",
-          "name": "Hungary",
-          "restrictions": [
-            {
-              "timeFrom": "22:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "HU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2025-12-21",
-      "dayOfWeek": "Sunday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CZ",
-          "name": "Czech Republic",
-          "restrictions": [
-            {
-              "timeFrom": "13:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "CZ",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "FR",
-          "name": "France",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "FR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LU",
-          "name": "Luxembourg",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "21:45",
-              "areas": [
-                {
-                  "areaId": "LU",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "DE",
-          "name": "Germany",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "DE",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SK",
-          "name": "Slovakia",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SK",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SI",
-          "name": "Slovenia",
-          "restrictions": [
-            {
-              "timeFrom": "08:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "CH",
-          "name": "Switzerland",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "CH",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "HU",
-          "name": "Hungary",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "HU",
-                  "type": "country"
-                }
-              ],
-              "warning": true,
-              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Italy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2025-12-24",
       "dayOfWeek": "Wednesday",
       "countries": [
@@ -2499,17 +1601,6 @@
                 }
               ],
               "warning": false
-            },
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
             }
           ]
         },
@@ -2741,6 +1832,783 @@
               "areas": [
                 {
                   "areaId": "SI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "09:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "IT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-17",
+      "dayOfWeek": "Saturday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "15:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "21:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction France"
+            },
+            {
+              "timeFrom": "23:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction Germany"
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-18",
+      "dayOfWeek": "Sunday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "Germany",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SK",
+          "name": "Slovakia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SK",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "CH",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "09:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "IT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-24",
+      "dayOfWeek": "Saturday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "15:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "21:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction France"
+            },
+            {
+              "timeFrom": "23:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction Germany"
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-25",
+      "dayOfWeek": "Sunday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "Germany",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "21:45",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SK",
+          "name": "Slovakia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SK",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "CH",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-31",
+      "dayOfWeek": "Saturday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "15:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "21:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction France"
+            },
+            {
+              "timeFrom": "23:30",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "LU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "direction Germany"
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
+                }
+              ],
+              "warning": true,
+              "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-02-01",
+      "dayOfWeek": "Sunday",
+      "countries": [
+        {
+          "code": "AT",
+          "name": "Austria",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "AT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CZ",
+          "name": "Czech Republic",
+          "restrictions": [
+            {
+              "timeFrom": "13:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "CZ",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "FR",
+          "name": "France",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "FR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "DE",
+          "name": "Germany",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "DE",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SK",
+          "name": "Slovakia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SK",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "SI",
+          "name": "Slovenia",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "SI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "CH",
+          "name": "Switzerland",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "23:59",
+              "areas": [
+                {
+                  "areaId": "CH",
                   "type": "country"
                 }
               ],
