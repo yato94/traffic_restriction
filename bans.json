@@ -1,6 +1,46 @@
 {
   "dates": [
     {
+      "date": "2026-01-05",
+      "dayOfWeek": "Monday",
+      "countries": [
+        {
+          "code": "HR",
+          "name": "Croatia",
+          "restrictions": [
+            {
+              "timeFrom": "15:00",
+              "timeTo": "23:00",
+              "areas": [
+                {
+                  "areaId": "HR",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "16:00",
+              "timeTo": "22:00",
+              "areas": [
+                {
+                  "areaId": "IT",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-01-10",
       "dayOfWeek": "Saturday",
       "countries": [
