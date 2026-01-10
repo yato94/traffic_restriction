@@ -1,165 +1,6 @@
 {
   "dates": [
     {
-      "date": "2026-01-05",
-      "dayOfWeek": "Monday",
-      "countries": [
-        {
-          "code": "HR",
-          "name": "Croatia",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "23:00",
-              "areas": [
-                {
-                  "areaId": "HR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Italy",
-          "restrictions": [
-            {
-              "timeFrom": "16:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-01-06",
-      "dayOfWeek": "Tuesday",
-      "countries": [
-        {
-          "code": "AT",
-          "name": "Austria",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "AT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "HR",
-          "name": "Croatia",
-          "restrictions": [
-            {
-              "timeFrom": "14:00",
-              "timeTo": "23:00",
-              "areas": [
-                {
-                  "areaId": "HR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "SK",
-          "name": "Slovakia",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "SK",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "IT",
-          "name": "Italy",
-          "restrictions": [
-            {
-              "timeFrom": "09:00",
-              "timeTo": "22:00",
-              "areas": [
-                {
-                  "areaId": "IT",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "LI",
-          "name": "Liechtenstein",
-          "restrictions": [
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            },
-            {
-              "timeFrom": "00:00",
-              "timeTo": "23:59",
-              "areas": [
-                {
-                  "areaId": "LI",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        },
-        {
-          "code": "GR",
-          "name": "Greece",
-          "restrictions": [
-            {
-              "timeFrom": "15:00",
-              "timeTo": "21:00",
-              "areas": [
-                {
-                  "areaId": "GR",
-                  "type": "country"
-                }
-              ],
-              "warning": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2026-01-10",
       "dayOfWeek": "Saturday",
       "countries": [
@@ -177,6 +18,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -442,6 +295,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -689,6 +554,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -954,6 +831,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -1219,6 +1108,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -1501,6 +1402,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -1766,6 +1679,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
@@ -2048,6 +1973,18 @@
                 }
               ],
               "warning": false
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
             }
           ]
         },
