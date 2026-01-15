@@ -97,6 +97,24 @@
               "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
             }
           ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
+            }
+          ]
         }
       ]
     },
@@ -374,6 +392,24 @@
               "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
             }
           ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
+            }
+          ]
         }
       ]
     },
@@ -631,6 +667,24 @@
                 }
               ],
               "warning": false
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
             }
           ]
         }
@@ -910,6 +964,24 @@
               "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
             }
           ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
+            }
+          ]
         }
       ]
     },
@@ -1185,6 +1257,24 @@
               ],
               "warning": true,
               "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
             }
           ]
         }
@@ -1481,6 +1571,24 @@
               "warning": false
             }
           ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
+            }
+          ]
         }
       ]
     },
@@ -1756,6 +1864,24 @@
               ],
               "warning": true,
               "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
             }
           ]
         }
@@ -2050,6 +2176,24 @@
               ],
               "warning": true,
               "warningText": "EURO 3+ vehicles in international service are not subject to the restrictions stated above."
+            }
+          ]
+        },
+        {
+          "code": "IT",
+          "name": "Italy",
+          "restrictions": [
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "IT-A22-Vipiteno-Brenner",
+                  "type": "highway"
+                }
+              ],
+              "warning": true,
+              "warningText": "A22 Vipiteno to Brenner for vechicles over 7,5t gross"
             }
           ]
         }
