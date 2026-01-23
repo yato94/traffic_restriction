@@ -24,12 +24,19 @@
               "timeTo": "15:00",
               "areas": [
                 {
-                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
                   "type": "highway"
                 }
               ],
-              "warning": true,
-              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+              "warning": false
             }
           ]
         },
@@ -319,12 +326,19 @@
               "timeTo": "15:00",
               "areas": [
                 {
-                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
                   "type": "highway"
                 }
               ],
-              "warning": true,
-              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+              "warning": false
             }
           ]
         },
@@ -596,12 +610,19 @@
               "timeTo": "15:00",
               "areas": [
                 {
-                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
                   "type": "highway"
                 }
               ],
-              "warning": true,
-              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+              "warning": false
             }
           ]
         },
@@ -891,12 +912,19 @@
               "timeTo": "15:00",
               "areas": [
                 {
-                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
                   "type": "highway"
                 }
               ],
-              "warning": true,
-              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+              "warning": false
             }
           ]
         },
@@ -1186,12 +1214,19 @@
               "timeTo": "15:00",
               "areas": [
                 {
-                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
                   "type": "highway"
                 }
               ],
-              "warning": true,
-              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+              "warning": false
             }
           ]
         },
@@ -1498,12 +1533,19 @@
               "timeTo": "15:00",
               "areas": [
                 {
-                  "areaId": "AT-A13-Nosslach-Brenner",
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
                   "type": "highway"
                 }
               ],
-              "warning": true,
-              "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+              "warning": false
             }
           ]
         },
@@ -1799,6 +1841,25 @@
               ],
               "warning": true,
               "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
+                  "type": "highway"
+                }
+              ],
+              "warning": false
             }
           ]
         },
@@ -2111,6 +2172,25 @@
               ],
               "warning": true,
               "warningText": "Traffic restriction in both directions:\nNosslach -> Brenner\nBrenner -> Nosslach"
+            },
+            {
+              "timeFrom": "07:00",
+              "timeTo": "15:00",
+              "areas": [
+                {
+                  "areaId": "AT - A12 Inntal",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT-A13",
+                  "type": "highway"
+                },
+                {
+                  "areaId": "AT - A14",
+                  "type": "highway"
+                }
+              ],
+              "warning": false
             }
           ]
         },
