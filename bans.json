@@ -10,7 +10,7 @@
           "restrictions": [
             {
               "timeFrom": "15:00",
-              "timeTo": "22:00",
+              "timeTo": "24:00",
               "areas": [
                 {
                   "areaId": "AT",
@@ -336,6 +336,23 @@
               "areas": [
                 {
                   "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "LU",
+          "name": "Luxembourg",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "21:45",
+              "areas": [
+                {
+                  "areaId": "LU",
                   "type": "country"
                 }
               ],
@@ -1234,6 +1251,23 @@
                 {
                   "areaId": "IT-A22-Vipiteno-Brenner",
                   "type": "highway"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "24:00",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
                 }
               ],
               "warning": false
