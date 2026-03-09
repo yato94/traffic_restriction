@@ -300,6 +300,29 @@
       ]
     },
     {
+      "date": "2026-03-19",
+      "dayOfWeek": "Thursday",
+      "countries": [
+        {
+          "code": "LI",
+          "name": "Liechtenstein",
+          "restrictions": [
+            {
+              "timeFrom": "00:00",
+              "timeTo": "24:00",
+              "areas": [
+                {
+                  "areaId": "LI",
+                  "type": "country"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-03-21",
       "dayOfWeek": "Saturday",
       "countries": [
@@ -397,6 +420,23 @@
                 {
                   "areaId": "IT-A22-Vipiteno-Brenner",
                   "type": "highway"
+                }
+              ],
+              "warning": false
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "name": "Hungary",
+          "restrictions": [
+            {
+              "timeFrom": "22:00",
+              "timeTo": "24:00",
+              "areas": [
+                {
+                  "areaId": "HU",
+                  "type": "country"
                 }
               ],
               "warning": false
